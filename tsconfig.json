@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./public",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es2018",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": false,
+    "lib": ["dom"],
+    "resolveJsonModule": true,
+  },
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/custom.d.ts"
+  ]
+}
